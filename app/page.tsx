@@ -1,12 +1,3 @@
-// Corrected and cleaned-up version of your component
-// Key fixes:
-// - Ensured MediaRecorder cleanup
-// - Ensured speech recognition type safety workaround
-// - Moved prompts outside component to avoid re-creation
-// - Removed unused refs
-// - Added null checks and defensive coding
-// - Fixed React state update timing issues in stopRecording
-
 "use client";
 
 import { useState, useRef, useEffect } from "react";
